@@ -13,9 +13,9 @@ class Question extends Component{
     
     render(){
         return(
-            <div>
-                <h1>{this.props.question.question}</h1>
-                <h2>{this.props.question.question_description}</h2>
+            <div className="questioni-frame">
+                <h3 className="question">{this.props.question.question}</h3>
+                <h5 className="question-description">{this.props.question.question_description}</h5>
                 <div className="options-frame">
                     { this.props.question.options.map((option)=>(
                         <button className="options-spacing" onClick={this.saveAnswer.bind(this,[{option}])} key={option} vaue={option}>{option}</button>

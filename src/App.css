@@ -37,9 +37,40 @@
   margin-right: 20px;
 }
 .options-frame{
+  position:relative;
+  display:block;
   height:100px;
   width:100%;
   margin-top:40px;
-
+  float:left;
+}
+.questioni-frame{
+  margin-top: 50px;
+  width:100%;
+}
+.question{
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding-left: 60px;
+}
+.question-description{
+  width:100%;
+}
+.direction-control{
+  position:absolute;
+  top:180px;
+  left:20px;
+  float:left;
+}
+.question-current-status{
+  float:right;
+}
+.arrow-color{
+  color:#429ef4;
+  font-size: 25px;
+}
+.jumbotron{
+  background:#429ef4 !important;
 }
 
